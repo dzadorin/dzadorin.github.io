@@ -1,0 +1,116 @@
+@media screen and (max-width: 1199px){
+	.story_img{
+		margin-top: 20%;
+		margin-left: 15%;
+	}
+}
+
+@media screen and (max-width: 991px){
+	.header{
+		padding-bottom: 100px;
+	}
+
+	.header_nav-logo{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.header_nav-navbar ul{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.header_nav-navbar li{
+		padding: 0;
+	}
+
+	.header_page{
+		margin-top: 100px;
+	}
+
+	.story_img{
+		margin-top: 40%;
+		margin-left: 0%;
+	}
+
+	.expertise{
+		padding-bottom: 20px;
+	}
+
+	.expertise_hr-two{
+		display: none;
+	}
+
+	.card_text{
+		padding-bottom: 40px;
+	}
+
+	.team_hr{
+		margin-bottom: 40px;
+	}
+
+	.works_title{
+		margin-left: 10%;
+	}
+	.footer_social-title{
+		margin-top: 50px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.header_nav-navbar ul{
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.header_page{
+		margin-top: 50px;
+	}
+
+	.story_img{
+		display: block;
+		margin: 0 auto 30px;
+	}
+
+	.story_btn{
+		margin-top: 30px;
+	}
+
+	.team{
+		background: #423166;		
+	}
+	.works_whey{
+		margin-left: 30%;
+	}
+}
+
+@media screen and (max-width: 575px){
+	.header_nav-navbar ul{
+		display: flex;		
+		flex-direction: column;
+		justify-content: center;
+		margin-left: -10%;
+	}
+	.header_nav-navbar li{
+		text-align: center;
+	}
+
+	.works_title{
+		margin-left: 0;
+		display: block;
+	}
+
+	.works_whey{
+		margin-left: 0;
+	}
+
+	.ava{
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+
+	
+
+
+	
+}
